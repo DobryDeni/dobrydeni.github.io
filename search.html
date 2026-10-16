@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск — UnrealUnity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Поиск по документации</h1>
+        <form class="search-form" onsubmit="return false;">
+            <input type="text" id="searchInput" placeholder="Введите запрос..." autofocus>
+            <button type="button" onclick="performSearch()">Найти</button>
+        </form>
+    </header>
+    <nav>
+        <a href="./">Главная</a> |
+        <a href="getting-started/">Начало</a> |
+        <a href="editor/">Редактор</a> |
+        <a href="scripting/">Скриптинг</a> |
+        <a href="tutorials/">Туториалы</a> |
+        <a href="api/">API</a> |
+        <a href="search.html">Поиск</a>
+    </nav>
+    <main>
+        <h2>Результаты поиска</h2>
+        <div id="searchResults"><p>Введите запрос в поле выше.</p></div>
+    </main>
+    <script src="assets/js/search.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
