@@ -1,0 +1,28 @@
+[
+  {"title": "Главная — UnrealUnity Engine", "url": "./", "description": "Обзор движка, разделы документации, быстрый старт", "tags": "главная обзор home"},
+  {"title": "Поиск по документации", "url": "search.html", "description": "Полнотекстовый поиск по всем страницам", "tags": "поиск search"},
+
+  {"title": "Начало работы", "url": "getting-started/", "description": "Обзор раздела: установка, требования, первая сцена", "tags": "старт начало getting-started"},
+  {"title": "Системные требования", "url": "getting-started/system-requirements.html", "description": "Минимальные требования к ОС, CPU, RAM, GPU", "tags": "требования ram gpu cpu windows linux macos"},
+  {"title": "Установка движка", "url": "getting-started/installation.html", "description": "Скачивание и установка UnrealUnity на Windows, macOS, Linux", "tags": "установка install download setup"},
+  {"title": "Создание первой сцены", "url": "getting-started/first-scene.html", "description": "Первый Actor, Directional Light, запуск Play", "tags": "первая сцена actor light play"},
+
+  {"title": "Интерфейс редактора", "url": "editor/", "description": "Viewport, Inspector, Visual Scripting — основные панели", "tags": "редактор интерфейс editor ui"},
+  {"title": "Viewport — 3D-окно", "url": "editor/viewport.html", "description": "Навигация камерой: WASD, вращение, фокус", "tags": "viewport камера 3d wasd"},
+  {"title": "Inspector — панель свойств", "url": "editor/inspector.html", "description": "Transform, компоненты, материалы объекта", "tags": "inspector свойства transform"},
+  {"title": "Визуальный скриптинг — граф нодов", "url": "editor/visual-scripting.html", "description": "Интерактивный превью системы нодов", "tags": "ноды visual scripting граф blueprints"},
+
+  {"title": "Программирование", "url": "scripting/", "description": "UnrealScript, события, API Reference", "tags": "скриптинг код programming"},
+  {"title": "Основы UnrealScript", "url": "scripting/unrealscript-basics.html", "description": "Первый скрипт, класс PlayerController, OnTick", "tags": "unrealscript основы код playercontroller tick"},
+  {"title": "Система событий", "url": "scripting/events.html", "description": "Делегаты, OnDamageTaken, связь между компонентами", "tags": "события events delegates"},
+  {"title": "API Reference (обзор)", "url": "scripting/api-reference.html", "description": "Обзор справочника API", "tags": "api reference обзор"},
+
+  {"title": "Видео-туториалы", "url": "tutorials/", "description": "Освещение, физика, звук — видео-уроки", "tags": "туториалы видео tutorials"},
+  {"title": "Настройка освещения", "url": "tutorials/lighting-guide.html", "description": "Lightmass, Build Lighting, запекание света", "tags": "освещение light lightmass build"},
+  {"title": "Физика и коллизии", "url": "tutorials/physics-tutorial.html", "description": "Rigidbody, симуляция физики, коллизии", "tags": "физика rigidbody коллизии physics"},
+  {"title": "Работа со звуком", "url": "tutorials/audio-tutorial.html", "description": "AudioSource, 3D-звук, затухание", "tags": "звук audio source 3d"},
+
+  {"title": "Справочник API", "url": "api/", "description": "Классы Vector3, Actor и другие", "tags": "api справочник classes"},
+  {"title": "Vector3", "url": "api/vector3.html", "description": "Структура 3D-вектора: up, Normalize, Dot", "tags": "vector3 вектор math normalize dot"},
+  {"title": "Actor", "url": "api/actor.html", "description": "Базовый класс: OnSpawn, OnDestroy, GetComponent", "tags": "actor класс spawn destroy component"}
+]
